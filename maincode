@@ -8,7 +8,7 @@ with open(' " enter your file location" ', 'r') as file:
 # VirusTotal API key
 api_key = ' "enter your API key"   '
 
-# URL for the VirusTotal API
+
 url_template = 'https://www.virustotal.com/api/v3/files/{}'
 
 # Iterate through the MD5 hashes and query VirusTotal
